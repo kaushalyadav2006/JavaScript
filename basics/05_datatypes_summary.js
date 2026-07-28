@@ -37,7 +37,7 @@ const bigNumber = 42383474973433232373n
     // console.log(typeof bigNumber);
     // console.log(typeof outsideTemp);
     // console.log(typeof scoreValue);
-    console.log(typeof myFunction);
+    // console.log(typeof myFunction);
 
     /**
     Return type of variables in JavaScript
@@ -55,3 +55,27 @@ const bigNumber = 42383474973433232373n
        Function  =>  function
        Object  =>  object
      */
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ //Memory ---> Stack (Premitive), Heap (Non-premitive)
+
+ let nickName = "eclipse"
+
+ let anotherNickName = nickName
+ anotherNickName = "kaushal"
+
+//  console.log(nickName);
+//  console.log(anotherNickName);
+
+ let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl",
+ }
+
+ let userTwo = userOne;
+
+ userTwo.email = "userTwo@google.com";
+ console.log(userOne.email)
+ console.log(userTwo.email)
