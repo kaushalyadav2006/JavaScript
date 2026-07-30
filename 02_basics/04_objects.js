@@ -61,10 +61,38 @@ const users = [
 // console.log(users[1].email);
 
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+//destructuring
+
+const course = {
+    coursename : "JS in Hindi",
+    price : "999",
+    courseInstructure : "hitesh sir"
+}
+// course.courseInstructure
+
+// const {courseInstructure} = course
+// console.log(courseInstructure);
+
+const {courseInstructure : instructor} = course
+console.log(instructor);
+
+// {
+//   "name":"kaushal",
+//   "coursename" : "JS in hindi",
+//   "price": "free",
+// }
+
+[
+  {},
+  {},
+  {},
+]
